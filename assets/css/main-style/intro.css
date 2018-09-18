@@ -1,0 +1,162 @@
+body {
+    background-image: url("../../images/intro/intro-bg@1x.jpg");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container-fluid .header .container {
+    z-index: 999;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.container-fluid .header .container .row .text h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.container-fluid .header .container .row .text h2 .yellow {
+    color: #f2dc01;
+}
+
+.container-fluid .header .container .row .text h2 .green {
+    color: #00B16A;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.container-fluid .header .container .row .text p {
+    color: #fff;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.container-fluid .header .container .row .screen-video, .container-fluid .header .container .row .screen-image {
+    margin: 25px 0;
+    z-index: 3;
+}
+
+.container-fluid .header .container .row .screen-video img:hover, .container-fluid .header .container .row .screen-image img:hover {
+    -webkit-filter: grayscale(.3) brightness(0.7) drop-shadow(5px 5px 6px #fff);
+    filter: grayscale(.3) brightness(0.7) drop-shadow(5px 5px 6px #fff);
+
+}
+
+.container-fluid .header .container .row .screen-video span, .container-fluid .header .container .row .screen-image span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.container-fluid .header .container .row .sep-icon {
+    padding: 150px 0 0 0;
+    z-index: 3;
+}
+
+.container-fluid .header .container .row .sep-icon i {
+    font-size: 54px;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+}
+
+/* start of media queries ======================*/
+
+@media screen and (min-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1048px) and (min-width: 768px) {
+    .col-sm-5 {
+        width: 39%;
+    }
+
+    .col-sm-2 {
+        width: 18%;
+    }
+
+    .col-sm-5 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: auto;
+        background-repeat: repeat;
+    }
+
+    .container-fluid .header .container {
+        padding: 10px;
+    }
+
+    .container-fluid .header .container .row .text h2 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+
+    .container-fluid .header .container .row .text h2 .green {
+        font-size: 28px;
+    }
+
+    .container-fluid .header .container .row .text p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .container-fluid .header .container .row .screen-video, .container-fluid .header .container .row .screen-image {
+        margin: 10px 0;
+    }
+
+    .container-fluid .header .container .row .screen-video img, .container-fluid .header .container .row .screen-image img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .container-fluid .header .container .row .screen-video span, .container-fluid .header .container .row .screen-image span {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 360px) {
+    .container-fluid .header .container .row .screen-video img, .container-fluid .header .container .row .screen-image img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .container-fluid .header .container .row .screen-video img, .container-fluid .header .container .row .screen-image img {
+        width: 300px;
+        height: 250px;
+    }
+    .container-fluid .header .container .row .text h2 {
+        margin: -50px 0 0;
+    }
+}
+
+@media screen and (max-height: 525px) {
+    .container-fluid .header .container .row .screen-video img, .container-fluid .header .container .row .screen-image img {
+        width: 240px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-height: 750px) and (min-height: 525px) {
+    .container-fluid .header .container .row .screen-video img, .container-fluid .header .container .row .screen-image img {
+        width: 380px;
+        height: 300px;
+    }
+}

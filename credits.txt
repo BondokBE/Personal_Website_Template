@@ -1,0 +1,15 @@
+- fontawesome
+- typed.js
+- funnytext.js
+- wow.js
+- animated.css
+- hover.css
+- retina.js
+- magneficpopup.js
+- mixitup.js
+- google font
+- google map
+- pexels.com
+- pixabay
+- allthefreestock.com
+

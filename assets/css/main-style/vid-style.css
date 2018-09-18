@@ -1,0 +1,58 @@
+/* start of video style ======================*/
+
+.header .container-fluid .carousel {
+    background-color: rgba(44,62,80,0.3);
+}
+
+.header .container-fluid .video video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.navs {
+    overflow-y: auto;
+}
+
+/* end of video style */
+
+/* start of media queries ======================*/
+
+@media screen and  (max-width: 768px) {
+    .header .container-fluid {
+        padding: -100px -100px;
+    }
+    .choose .colors {
+        height: 170px;
+    }
+    .choose .colors ul li {
+        width: 18px;
+        height: 18px;
+        margin: 1px;
+    }
+    .choose .colors ul {
+        padding:7px;
+    }
+    .wrapper .navbar-default .navbar-brand h3 {
+        font-size: 20px;
+    }
+    .wrapper .navbar-default .navbar-brand h3 span {
+        font-size: 23px;
+    }
+    .header .container-fluid .arrow-down {
+        bottom: 9%;
+    }
+    .header .container-fluid .carousel-caption button {
+        padding: 10px 0;
+        width: 120px;
+    }
+    .spin-container .spinner-overlay {
+        top: 15%;
+        left: 35%;
+    }
+}
+
+
