@@ -4,4 +4,3 @@
 #### Used in thie Template: Html5, Saas, Js, JQuery, Bootstrap, FontAwesome
 #### Very Well Code Documented
 -----------
-It's good template for beginners to learn with it.
