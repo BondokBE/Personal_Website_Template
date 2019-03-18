@@ -3,4 +3,4 @@
 #### Built By: Belal Abdulnasser [BondokBE]
 #### Used in thie Template: Html5, Saas, Js, JQuery, Bootstrap, FontAwesome
 -----------
-It's good for beginners to learn from it.
+It's good Example Template for beginners to learn from it.
