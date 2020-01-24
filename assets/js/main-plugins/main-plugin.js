@@ -439,15 +439,15 @@ $(function () {
 
 /* start of spinner plugin =====================*/
 
-$(window).load(function () {
+// $(window).load(function () {
 
-    "use strict";
+//     "use strict";
 
-    // fadeOut the spinner in 2.5 second
+//     // fadeOut the spinner in 2.5 second
     
-    $(".spin-container").fadeOut(2000);
+//     $(".spin-container").fadeOut(2000);
 
-});
+// });
 
 /* end of spinner plugin */
 
