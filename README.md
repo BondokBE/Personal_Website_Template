@@ -1,5 +1,5 @@
-# RepresenterBE Fully Responsive Multi Purposes Personal Website Template - Front End
+# RepresenterBE Fully Responsive Multi Purposes Personal Website Template
 #### Built By: Belal Abdulnasser [BondokBE]
-#### Used in thie Template: Html5, Saas, Js, JQuery, Bootstrap, FontAwesome
-#### Very Well Code Documented
+#### Techs Used in thie Template: Html5, Saas, Js, JQuery, Bootstrap, FontAwesome
+#### Code Documented very well
 -----------
