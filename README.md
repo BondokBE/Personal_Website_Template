@@ -6,4 +6,3 @@
 #### Documented Code
 -----------
 ![GitHub Logo](./full_page.jpg)
-![GitHub Logo](./feature_img.jpg)
